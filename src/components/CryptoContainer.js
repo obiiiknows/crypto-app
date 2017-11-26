@@ -33,7 +33,7 @@ class CryptoContainer extends Component {
     console.log('render just ran')
 
     // // if fetching..
-    if (crypto.isFetching) {
+    if (crypto.data == []) {
       return (
         <View>
           <Spinner 

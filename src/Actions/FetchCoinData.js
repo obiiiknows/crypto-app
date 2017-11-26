@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { apiBaseURL } from './../Utils/Contants';
+import { apiBaseURL } from './../Utils/Constants';
 
 // ACTION TYPES
 import {
